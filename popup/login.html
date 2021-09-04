@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+          padding: 0;
+          margin: 0;
+        }
+        .container {
+			box-shadow: inset 0px 0px 8px 8px #181818;
+            width: 400px;
+            height: 300px;
+            background: url("splash_muchowy.png");
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-size: 400px 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: 'Source Sans Pro';
+            user-select: none;
+			
+        }
+
+        .Image {
+            
+            width: 0px;
+            height: 0px;
+        }
+
+        .Text {
+            color: #FF7000;
+            background-color: rgba(1, 1, 1, 0.5);
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 22px;
+            line-height: 2px;
+			margin-bottom: 100px;
+			margin-top: 0px;
+			
+			
+        }
+
+        .TextInput {
+		    
+            width: 200px;
+            height: 25px;
+            color: white;
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none;
+            text-align: center;
+            padding: 2px;
+            background: rgba(1, 1, 1, 0.8);
+            border: 2px solid #000000;
+            border-radius: 10px;
+			margin-top: 30px;
+            /* box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5); */
+        }
+
+        .Button {
+			margin-top: 5px;
+            width: 125px;
+            height: 35px;
+            color: #E16623;
+            font-size: 19px;
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none;
+            text-align: center;
+            background: rgba(255,255,255,0.7);
+            border: 2px solid #000000;
+            border-radius: 0px;
+            cursor: pointer;
+			margin-bottom: -35px;
+        }
+
+        .TextLink {
+            color: #FF7000;
+            font-size: 16px;
+            line-height: 2px;
+            background-color: rgba(1, 1, 1, 0.5);
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 50px;
+			
+        }
+
+        *:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.cheatenginebrasil.com.br" target="_blank"><img class="Image" src="ICONE.png" width="100px" height="100px"></a>
+        <p class="Text"></p>
+        <input id="ePassword" class="TextInput" type="text" placeholder="Enter Password" autofocus>
+        <button id="eButton" class="Button">Login</button>
+        <a class="TextLink" href="https://www.cheatenginebrasil.com.br" target="_blank">www.cheatenginebrasil.com.br</a>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

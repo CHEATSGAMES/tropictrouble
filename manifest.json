@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "EXTENSÃO TROPIC TROUBLE",
+    "version": "1.0",
+
+    "description": "Moedas, Diamantes, Jogadas, Vidas infinitas... Auto Win e muito mais",
+
+    "icons": {
+        "48": "icons/icone.png"
+    },
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://www.tropictrouble.cheatenginebrasil.com.br/*",
+		"*://*.qublixaws.com/*"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/icone.png",
+        "default_title": "RAFAEL LIMA"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
